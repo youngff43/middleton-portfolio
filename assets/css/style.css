@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 /* HEADER / NAV BAR STYLES START */
@@ -12,24 +16,21 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url("../images/header_image.png");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%; 
+    background-color: rgb(76, 33, 42);
+    align-items: center;
     z-index: 9999;  
-    margin: 15px;
 }
 
 header h1 {
     font-weight: bold;
+    margin: 0;
     font-size: 36px;
-    color:antiquewhite;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: antiquewhite;
 }
 
 header a {
     text-decoration: none;
-    color:antiquewhite
+    color:antiquewhite;
 }
 
 header nav {
@@ -47,15 +48,13 @@ header nav ul {
   header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 30px;
   }
 
   header nav ul li a:hover {
     background: antiquewhite;
     color: black;
     border-radius: 20px;
-    text-shadow: none;
   }
 
 /* HEADER / NAVBAR STYLES END */
@@ -63,15 +62,12 @@ header nav ul {
 /* HERO STYLES START */
 
 .hero {
-    background-image: url('../images/hero-bg.png');
-    background-size: inherit;
+    background-color: rgb(1, 23, 47);
     display: flex;
     justify-content: right;
     flex-wrap: wrap;
     align-items: flex-end;
-    background-attachment: fixed;
-    background-position: 90%;
-    margin: 15px;
+    margin-top: 15px;
     height: 2.5in;
   }
 
@@ -84,71 +80,29 @@ header nav ul {
 
 /* HERO STYLES END */
 
-/* ABOUT ME SECTION */
+/* START OF FOOTER */
 
-#about-me {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-
-.about-title {
-    font-size: 40px;
-    align-self: center;
-    text-align: right;
-    width: 10%;
-    padding: 10px;
+footer {
+  padding: 20px 35px;
+  background-color: rgb(76, 33, 42);
+  align-items: center;
 }
 
-.about-para {
-  font-size: 20px;
-  padding: 10px;
-  align-self: center;
-  border-left: solid black;
-  width: 90%;
+footer a {
+  text-decoration: none;
+  color:antiquewhite;
 }
 
-/* ABOUT ME SECTION END*/
-
-/* WORK SECTION */
-
-#bottom-section {
+footer ul {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-
+  justify-content: space-evenly;
+  list-style: none;
 }
 
-.work {
-  order: 1;
-  width: 10%;
-  padding: 10px;
-  align-self: center;
-  text-align: right;
-  font-size: 40px;
-}
-
-.surf-report {
-  order: 2;
-  width: 90%;
-  border-left: solid black;
-  align-self: center;
+footer ul li a {
+  padding: 10px 15px;
   font-size: 20px;
+  color:antiquewhite;
 }
 
-.led-wall {
-  order: 3;
-}
-
-.calculator {
-  order: 4;
-}
-
-.pastel-puzzles {
-  order: 5;
-}
-
-.run-buddy {
-  order: 6;
-}
+/* END OF FOOTER */
