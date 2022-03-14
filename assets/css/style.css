@@ -112,6 +112,87 @@ header nav ul {
 
 /* START OF PROJECTS */
 
+#projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.surf-report {
+  width: 100%;
+  margin: 30px;
+  background-color: rgb(0, 99, 93);
+  border: solid 20px rgb(8, 164, 189);
+  height: 3in;
+}
+
+.surf-report h4 {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.led-wall {
+  order: 3;
+  width: 45%;
+  margin: 10px;
+  background-color: rgb(0, 99, 93);
+  border: solid 20px rgb(8, 164, 189);
+  height: 3in;
+}
+
+.led-wall h4 {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.calculator {
+  order: 4;
+  width: 45%;
+  margin: 10px;
+  background-color: rgb(0, 99, 93);
+  border: solid 20px rgb(8, 164, 189);
+  height: 3in;
+}
+
+.calculator h4 {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.pastel-puzzles {
+  order: 5;
+  width: 45%;
+  margin: 10px;
+  background-color: rgb(0, 99, 93);
+  border: solid 20px rgb(8, 164, 189);
+  height: 3in;
+}
+
+.pastel-puzzles h4 {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.run-buddy {
+  order: 6;
+  width: 45%;
+  margin: 10px;
+  background-color: rgb(0, 99, 93);
+  border: solid 20px rgb(8, 164, 189);
+  height: 3in;
+}
+
+.run-buddy h4 {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.run-buddy h4 a {
+  text-decoration: none;
+  color:antiquewhite;
+}
+
 /* END OF PROJECTS */
 
 /* START OF FOOTER */
@@ -138,5 +219,10 @@ footer ul li a {
   font-size: 20px;
   color:antiquewhite;
 }
-
+footer ul li a:hover {
+  background: antiquewhite;
+  color: black;
+  border-radius: 20px;
+}
 /* END OF FOOTER */
+
