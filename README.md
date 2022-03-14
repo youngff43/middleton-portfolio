@@ -8,7 +8,7 @@ This is a portfolio of work can to showcase my skills and talents to employers l
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+https://youngff43.github.io/middleton-portfolio-/
 
 ## Contribution
 Made with ❤️ by Megan Middleton
