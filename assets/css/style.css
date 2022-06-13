@@ -127,7 +127,7 @@ header nav ul {
   height: 3in;
 }
 
-.surf-report h4 {
+h4 {
   font-size: 25px;
   padding: 10px;
 }
@@ -141,11 +141,6 @@ header nav ul {
   height: 3in;
 }
 
-.led-wall h4 {
-  font-size: 25px;
-  padding: 10px;
-}
-
 .calculator {
   order: 4;
   width: 45%;
@@ -153,11 +148,6 @@ header nav ul {
   background-color: rgb(0, 99, 93);
   border: solid 20px rgb(8, 164, 189);
   height: 3in;
-}
-
-.calculator h4 {
-  font-size: 25px;
-  padding: 10px;
 }
 
 .pastel-puzzles {
@@ -169,12 +159,7 @@ header nav ul {
   height: 3in;
 }
 
-.pastel-puzzles h4 {
-  font-size: 25px;
-  padding: 10px;
-}
-
-.pastel-puzzles h4 a{
+h4 a{
   text-decoration: none;
   color:antiquewhite;
 }
@@ -186,16 +171,6 @@ header nav ul {
   background-color: rgb(0, 99, 93);
   border: solid 20px rgb(8, 164, 189);
   height: 3in;
-}
-
-.run-buddy h4 {
-  font-size: 25px;
-  padding: 10px;
-}
-
-.run-buddy h4 a {
-  text-decoration: none;
-  color:antiquewhite;
 }
 
 /* END OF PROJECTS */
