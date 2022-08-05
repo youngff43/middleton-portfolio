@@ -164,7 +164,8 @@ h4 a{
   color:antiquewhite;
 }
 
-.run-buddy {
+.run-buddy,
+.led-wall {
   order: 6;
   width: 45%;
   margin: 10px;
